@@ -39,7 +39,7 @@ def simplifyBySymbol(symbol, expression):
                 case "+":
                     multRes = (leftOperand + rightOperand).normalize()
                 case "-":
-                    multRes = (leftOperand - rightOperand).normalize
+                    multRes = (leftOperand - rightOperand).normalize()
                 case "x":
                     multRes = (leftOperand * rightOperand).normalize()
                 case "/":
